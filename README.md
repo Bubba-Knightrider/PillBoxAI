@@ -56,3 +56,10 @@ Cloud Services:
   - Caregiver alerts with role-based access
   - OTA firmware upgrades
   - Pill ID using camera or RFID integration
+
+## Contributions
+
+# Fork this repository
+# Create your feature branch
+# Commit your changes
+# Submit a Pull Request
