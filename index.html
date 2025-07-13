@@ -1,3 +1,20 @@
+# (updated for real pill status)
+<section id="pill-status">
+  <h2>Pill Status Dashboard</h2>
+  <p id="pill-log">Waiting for device...</p>
+</section>
+
+<script>
+  // Simulate dynamic update (actual connection can be done via WebSocket or HTTP)
+  setInterval(() => {
+    const log = document.getElementById('pill-log');
+    const time = new Date().toLocaleTimeString();
+    log.textContent = `Last Pill Dispensed: ${time}`;
+  }, 10000);
+</script>
+
+
+# prev
 <!DOCTYPE html>
 <html lang="en">
 <head>
